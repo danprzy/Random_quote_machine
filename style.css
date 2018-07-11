@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+html, body {
+  height: 100%; }
+
+body {
+  background: url("https://images.unsplash.com/photo-1497384401032-2182d2687715?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=242c980b3f14ce636683be72c87a9e7c&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif; }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  color: #143540;
+  border-radius: 10px 10px 10px 10px;
+  text-decoration: none; }
+
+h1, .box {
+  margin: 20px; }
+
+h4 {
+  margin: 10px; }
+
+i.fa-quote-left {
+  font-size: 50px;
+  padding-right: 20px; }
+
+.quote {
+  display: inline-block; }
+
+.btn {
+  width: 180px;
+  height: 40px;
+  font-size: 20px;
+  border: 2px solid #143540;
+  margin: 20px;
+  display: inline-block; }
+
+a.tweet, i.fa-twitter {
+  font-size: 22px;
+  color: #FBDEC1;
+  background: #143540; }
+  a.tweet:hover, i.fa-twitter:hover {
+    cursor: pointer;
+    background: #FBDEC1;
+    color: #143540;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear; }
+    a.tweet:hover:hover i.fa-twitter, i.fa-twitter:hover:hover i.fa-twitter {
+      color: #143540;
+      background: #FBDEC1;
+      -webkit-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
+      a.tweet:hover:hover i.fa-twitter:active, i.fa-twitter:hover:hover i.fa-twitter:active {
+        background: #143540; }
+
+.new-quote-btn {
+  background: transparent; }
+  .new-quote-btn:hover {
+    cursor: pointer;
+    color: #FBDEC1;
+    background: #143540;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear; }
+    .new-quote-btn:hover:active {
+      opacity: 0.3; }
+
+/*# sourceMappingURL=style.css.map */
