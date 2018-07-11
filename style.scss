@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+$dark-green: #143540;
+$beige: #FBDEC1;
+
+html, body{
+  height: 100%;
+}
+
+body {
+  background: url('https://images.unsplash.com/photo-1497384401032-2182d2687715?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=242c980b3f14ce636683be72c87a9e7c&auto=format&fit=crop&w=1350&q=80');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  text-align: center;
+  color: $dark-green;
+  border-radius: 10px 10px 10px 10px; 
+  text-decoration: none;
+}
+
+h1, .box{
+  margin: 20px;
+}
+
+ h4 {
+  margin: 10px;
+}
+
+i.fa-quote-left {
+  font-size: 50px;
+  padding-right: 20px;
+}
+
+.quote {
+  display: inline-block; 
+}
+
+.btn {
+  width: 180px;
+  height: 40px;
+  font-size: 20px;
+  border: 2px solid $dark-green;
+  margin: 20px;
+  display: inline-block;   
+}
+
+a.tweet, i.fa-twitter  {
+  font-size: 22px;
+  color: $beige;
+  background: $dark-green;
+  &:hover {
+     cursor: pointer;
+     background: $beige;
+     color: $dark-green;
+     transition: all 0.2s linear;
+  &:hover i.fa-twitter {   
+    color: $dark-green;
+    background: $beige;
+    transition: all 0.2s linear;  
+  &:active {
+    background: $dark-green;
+  }
+  }
+  }
+}
+
+ .new-quote-btn {
+  background: transparent;
+  &:hover {
+    cursor: pointer;
+    color: $beige;
+    background: $dark-green;
+    transition: all 0.2s linear;  
+  &:active {
+    opacity: 0.3;
+  }
+  }
+}
+   
